@@ -1,4 +1,4 @@
-# Import summarizer
+# Import resources
 from summa.summarizer import summarize
 from summa import keywords
 
@@ -13,8 +13,7 @@ length, writing style and syntax. An example of the use of summarization technol
 is search engines such as Google. Document summarization is another."""
 
 print(summarize(text, ratio=0.2))
-#print(summarize(text, words=20))
+
+print(summarize(text, words=20))
+
 print(keywords.keywords(text))
-
-
-#https://github.com/summanlp/textrank
